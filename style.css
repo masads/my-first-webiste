@@ -1,0 +1,221 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body
+{
+    margin: 0%;
+}
+nav{
+    background-color: rgb(12, 11, 11);
+    height: 75px;
+}
+nav > ul 
+{
+    padding: 0;
+    margin: 0px;
+}
+img
+{
+    width: 111px;
+}
+nav li
+{
+    
+    display: inline;
+    float: left;
+    height: 50px;
+
+}
+nav li a{
+    margin-top: 12px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+nav li a:hover{
+    font-size: 20px;
+}
+nav li  button
+{
+    margin: 22px 0px 0px 800px;
+    padding:8px 26px;
+    background-color: rgb(193, 1, 241);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+button:hover
+{
+    font-size: 15px;
+    background-color: white;
+}
+nav a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px ;
+    font-weight: bold;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+header
+{
+    height: 625px;
+    background-image: url("image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#intro
+{
+    align-content: center;
+    height: 88.1%;
+    background-color: rgba(7, 4, 4, 0.4);
+    margin: -68px 0px 0px 0px;
+    transition-property: all;
+    transition-duration: 1s;
+    letter-spacing: 70px;
+}
+#intro:hover
+{
+    letter-spacing: 48px;
+    background-color:rgba(212, 0, 255, 0.822);
+
+}
+#intro h1{
+    padding-top: 200px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 100px;
+    padding-left: 100px;
+}
+footer
+{
+    background-color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 150px;
+
+}
+footer div{
+    color:white;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.active a{
+    color: rgb(185, 1, 241);
+}
+.container
+{
+    background-color: rgb(0, 0, 0);
+    height: 400px;
+    padding-top: 20px;
+}
+.container > h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+#box2 >h1
+{
+    font-size: 34px;
+}
+#box2 >h1:hover
+{
+    font-size: 36px;
+}
+.o_box
+{
+    display: flex;
+    justify-content: space-around;
+}
+.i_box
+{
+    margin: 40px 0px 0px 0px ;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.i_box h2
+{
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.i_box h1
+{
+    margin: -2px 0px 20px 0px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.i_box h1:hover 
+{
+    color: white;
+    font-size: 42px;
+}
+.i_box h2:hover
+{
+    color: white;
+    font-size: 27px;
+}
+.i_box:hover
+{
+    background-color: purple;
+}
+.container2
+{
+    background-color: rgba(72, 0, 121, 0.836);
+    display: flex;
+    flex-direction: column;
+    transition-property: all;
+    transition-duration: 1s;
+    justify-content: center;
+}
+.container2:hover
+{
+    background-color: rgba(153, 0, 255, 0.836);
+}
+.container2 >h1
+{
+    font-size: 50px;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.container2 p{
+    margin: 20px 30px 50px 30px;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.container2 >h1:hover 
+{
+    font-size: 55px;
+    color: white;
+}
+.container >h1:hover
+{
+    font-size: 60px;
+    color: rgb(66, 0, 66);
+}
+
+
+
+
